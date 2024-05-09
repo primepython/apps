@@ -1,8 +1,9 @@
+#For image sample, please refer to ddealt_check_sample.png
 import os
 import pytesseract
 import cv2
 
-
+#Image recognition function
 def damage_recognition():
     directory = './'
     desired_extension = '.png'
